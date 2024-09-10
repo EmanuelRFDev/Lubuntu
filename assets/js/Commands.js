@@ -1,6 +1,6 @@
 class CommandInterpreter{constructor(){this.commands=new Map()
 this.commandHistory=[]
-this.commands.set("help",()=>{console.log('test');return `Commandos "neofetch" "date" "uname" "dev" "echo" "pwd" "whoami" "history" "claer" `})
+this.commands.set("help",()=>{console.log('test');return `Commandos "neofetch" "date" "uname" "dev" "echo" "pwd" "whoami" "history"`})
 this.commands.set("neofetch",()=>{return `
         <pre>
           <span style="color: #33aadd;">                 
